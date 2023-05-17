@@ -1,0 +1,25 @@
+[Reid] 2022/01/10 - 11:30:47.819	info	D:/脚本/go/reid/cmd/run.go:11	------------------开始运行------------------
+[Reid] 2022/01/10 - 11:31:08.864	panic	D:/脚本/go/reid/cmd/dateBase.go:21	gorm.Open err:	{"err": "dial tcp 11.23.5.51:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+[Reid] 2022/01/10 - 11:36:42.514	info	D:/脚本/go/reid/cmd/run.go:11	------------------开始运行------------------
+[Reid] 2022/01/10 - 11:42:32.393	info	D:/脚本/go/reid/cmd/run.go:11	------------------开始运行------------------
+[Reid] 2022/01/10 - 11:42:32.395	info	D:/脚本/go/reid/cmd/getRedisInfo.go:15	redis 初始化完成
+[Reid] 2022/01/10 - 11:42:37.407	panic	D:/脚本/go/reid/cmd/getRedisInfo.go:29	redis.get err:	{"err": "dial tcp 11.23.5.51:6379: i/o timeout"}
+[Reid] 2022/01/10 - 11:43:20.409	info	D:/脚本/go/reid/cmd/run.go:11	------------------开始运行------------------
+[Reid] 2022/01/10 - 11:43:20.412	info	D:/脚本/go/reid/cmd/getRedisInfo.go:15	redis 初始化完成
+[Reid] 2022/01/10 - 11:43:25.428	panic	D:/脚本/go/reid/cmd/getRedisInfo.go:29	redis.get err:	{"err": "dial tcp 11.23.5.51:6379: i/o timeout"}
+[Reid] 2022/01/10 - 11:44:59.294	info	D:/脚本/go/reid/cmd/run.go:11	------------------开始运行------------------
+[Reid] 2022/01/10 - 11:44:59.295	info	D:/脚本/go/reid/cmd/getRedisInfo.go:15	redis 初始化完成
+[Reid] 2022/01/10 - 11:45:04.305	panic	D:/脚本/go/reid/cmd/getRedisInfo.go:29	redis.get err:	{"err": "dial tcp 11.23.5.51:6379: i/o timeout"}
+[Reid] 2022/01/10 - 11:45:49.520	info	D:/脚本/go/reid/cmd/run.go:12	------------------开始运行------------------
+[Reid] 2022/01/10 - 11:46:37.642	info	D:/脚本/go/reid/cmd/run.go:12	------------------开始运行------------------
+[Reid] 2022/01/10 - 11:47:39.811	info	D:/脚本/go/reid/cmd/run.go:12	------------------开始运行------------------
+[Reid] 2022/01/10 - 11:50:38.541	info	D:/脚本/go/reid/cmd/run.go:11	------------------开始运行------------------
+[Reid] 2022/01/10 - 11:50:38.543	info	D:/脚本/go/reid/cmd/getRedisInfo.go:15	redis 初始化完成
+[Reid] 2022/01/10 - 11:50:43.556	panic	D:/脚本/go/reid/cmd/getRedisInfo.go:29	redis.get err:	{"err": "dial tcp 11.23.5.51:6379: i/o timeout"}
+[Reid] 2022/01/10 - 11:51:46.667	info	D:/脚本/go/reid/cmd/run.go:11	------------------开始运行------------------
+[Reid] 2022/01/10 - 11:51:46.669	info	D:/脚本/go/reid/cmd/getRedisInfo.go:15	redis 初始化完成
+[Reid] 2022/01/10 - 11:51:51.682	panic	D:/脚本/go/reid/cmd/getRedisInfo.go:29	redis.get err:	{"err": "dial tcp 11.23.5.51:6379: i/o timeout"}
+[Reid] 2022/01/10 - 11:52:03.144	info	D:/脚本/go/reid/cmd/run.go:11	------------------开始运行------------------
+[Reid] 2022/01/10 - 11:52:53.981	info	D:/脚本/go/reid/cmd/run.go:11	------------------开始运行------------------
+[Reid] 2022/01/10 - 11:54:44.667	info	D:/脚本/go/reid/cmd/run.go:10	------------------开始运行------------------
+[Reid] 2022/01/10 - 11:55:05.706	panic	D:/脚本/go/reid/cmd/dateBase.go:21	gorm.Open err:	{"err": "dial tcp 11.23.5.51:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}

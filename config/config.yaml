@@ -1,0 +1,63 @@
+SysInfo:
+  SysName: 研判平台
+  SysHeTongId: JC21-4401-28-00196
+  PortraitCount: 737096 # 注：此字段已取消、上个月的人像库数据，用于业务量统计中的新增量
+  Model: 0 # 0从数据库取数据  1 为从本地json中取数据
+
+FileInfo:
+  YpNameTemp: Temp\系统用户.xlsx #研判系统用户模板
+  YpLoginTemp: Temp\系统登录.xlsx #研判系统登陆模板
+  AccessTemp: Temp\模块访问量.xlsx #模块访问量模板
+  PcInfoTemp: Temp\硬件分析.xlsx #模块访问量模板
+  ModStatTemp: Temp\模块业务量.xlsx #模块业务量模板
+
+  YpNameSaveDir: Temp\系统用户1.xlsx #研判系统用户保存路径
+  YpLoginSaveDir: Temp\系统登录1.xlsx #研判系统登陆保存路径
+  AccessSaveDir: Temp\模块访问量1.xlsx #模块访问量保存路径
+  PcInfoSaveDir: Temp\硬件分析1.xlsx #模块访问量保存路径
+  ModStatSaveDir: Temp\模块业务量1.xlsx #模块业务量保存路径
+  ZipSaveDir: Temp\ # 以\结尾
+
+  UserJson: user11.json
+  Logjson: 11.json
+  AnjianJson: aj11.json
+  AnjianuserJson: ajuser11.json
+
+Mysql:
+  username: user
+  password: pass
+  addr: 11.23.5.51:3306
+  max_idle_conns: 0
+  max_open_conns: 0
+  config: charset=utf8mb4&parseTime=True&loc=Local
+  DataBases:
+    Database1: db1
+    Database2: db2
+
+Redis: #SenseTime:SenseFace:RealTime:AllAlarm:Day:2018-12-12
+  Db: 0
+  Password: pass
+  Addr: 11.23.5.51:6379
+  Daykey: "SenseTime:SenseFace:RealTime:AllAlarm:Day:"
+  MonthAlarmKey: "SenseTime:SenseFace:RealTime:AllAlarm:Day:"
+  MonthCaptureKey: "SenseTime:SenseFace:RealTime:AllDetect:Day:"
+  PortraitKey: "SenseTime:SenseFace:RealTime:Portrai:Portrai"
+
+WebInfo:
+  Ypuser: admin
+  YpPassword: pass
+  YpUrl: http://127.0.0.1:8080
+  TTuser: admin
+  TTPassword: pass
+  TTUrl: http://127.0.0.1:8080
+
+zap:
+  level: info #日志级别
+  format: console
+  prefix: "[Reid] " # 日志初始值
+  director: Temp\log   #日志目录
+  link-name: latest_log   # 日志软链接
+  encode-level: LowercaseColorLevelEncoder
+  stacktrace-key: stacktrace    # 堆栈
+  log-in-console: true    # 是否在console打印
+  ShowLine: true    #是否打印文件名和文件行数
